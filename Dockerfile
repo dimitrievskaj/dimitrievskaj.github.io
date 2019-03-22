@@ -1,2 +1,2 @@
-FROM nginx
-COPY index.html /usr/share/nginx/html
+FROM quay.io/loicmahieu/alpine-nginx
+COPY index.html /etc/nginx/html
